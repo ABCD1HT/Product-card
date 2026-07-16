@@ -3,7 +3,6 @@
 }
 
 body {
-  /* Подключаем новый шрифт и делаем его основным */
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -14,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
-  background-size: cover; /* Растягивает картинку, чтобы не было пустых полей */
+  background-size: cover;
 }
 
 .container {
