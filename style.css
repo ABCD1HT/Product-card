@@ -20,7 +20,7 @@ body {
   width: 1110px;
   margin: 0 auto;
   padding: 0 15px;
-}
+} /* Скобка закрыта корректно! */
 
 .title {
   font-size: 40px;
