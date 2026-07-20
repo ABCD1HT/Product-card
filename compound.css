@@ -1,0 +1,26 @@
+.compound {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.compound__title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #111;
+}
+
+.compound__list {
+  margin: 0;
+  padding-left: 20px;
+  color: #515076;
+  list-style-type: disc;
+}
+
+.compound__item {
+  margin-bottom: 4px;
+}
+
+.compound__item:last-child {
+  margin-bottom: 0;
+}
