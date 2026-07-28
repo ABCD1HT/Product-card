@@ -19,7 +19,6 @@ changeColorFirstCardButton.addEventListener('click', () => {
 
 
 const openGoogleButton = document.querySelector('#open-google');
-
 openGoogleButton.addEventListener('click', openGoogle)
 
 function openGoogle() {
@@ -34,10 +33,23 @@ function openGoogle() {
 
 
 const outputLogButton = document.querySelector('#output-console-log');
-
 outputLogButton.addEventListener('click', () => outputConsoleLog('ДЗ №4'))
 
 function outputConsoleLog(message) {
   alert(message)
   console.log(message)
 }
+
+
+const mainTitle = document.querySelector('.title');
+
+mainTitle.addEventListener('mouseenter', () => {
+  console.log(mainTitle.textContent)
+})
+
+
+const toogleColorButton = document.querySelector('#toggle-color-button');
+
+toogleColorButton.addEventListener('click', () => {
+  toogleColorButton.classList.toggle('button-color');
+})
